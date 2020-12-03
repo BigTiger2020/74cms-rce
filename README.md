@@ -38,11 +38,11 @@ multimerge($config, $new_config) -> file_put_contents($config_file, "<?php \nret
 * Steps to reproduce
 1.   
 ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/04.png)   
-2.  
+2.   
 ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/01.png)   
-3.  
+3.    
 ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/03.png)   
-4.  
+4.    
 ![image](https://github.com/BigTiger2020/74cms-rce/blob/main/02.png) 
 
 
